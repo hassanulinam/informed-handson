@@ -8,6 +8,7 @@ import {
   useFormApi,
   FormApi,
 } from "informed";
+import React, { Fragment } from "react";
 
 /* const validate = (value: any) => {
   return !value || value.length < 5
@@ -23,7 +24,7 @@ const BasicForm = () => {
   return (
     <Form>
       {({ formApi }: any) => (
-        <>
+        <Fragment>
           <Input name="name" label="First name: " />
           <RadioGroup name="married">
             Are you married ?
@@ -59,7 +60,7 @@ const BasicForm = () => {
           </button>
           <button type="submit">Submit</button>
           <Debug />
-        </>
+        </Fragment>
       )}
     </Form>
   );

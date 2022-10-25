@@ -27,7 +27,7 @@ const YupValidation = () => {
         <Input
           name="lastName"
           label="Last Name:"
-          validationSchema={lastNameSchema}
+          //   validationSchema={lastNameSchema}
         />
         <br />
         <Input name="email" label="Email:" />
